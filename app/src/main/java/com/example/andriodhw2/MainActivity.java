@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                  fin = Integer.parseInt(finals.getText().toString());
                 home = Integer.parseInt(homeworks.getText().toString());
                 quiz = Integer.parseInt(quizzes.getText().toString());
-                result_num = midterm + fin + quiz + home;
+                result_num = (midterm + fin + quiz + home)/4 ;
                 result.setText(String.valueOf(result_num));
             }
         });
